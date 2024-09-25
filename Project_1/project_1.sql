@@ -7,8 +7,6 @@
 -- INSERT INTO friends (id, name, birthday)
 -- VALUES (1, 'Ororo Munroe', '1940-05-30');
 
--- SELECT * FROM friends;
-
 -- INSERT INTO friends (id, name, birthday)
 -- VALUES (2, 'Mae Rae', '1993-08-30');
 
@@ -34,5 +32,7 @@
 -- SET email = 'MikeRae@that.com'
 -- WHERE id = 3;
 
--- DELETE FROM friends
--- WHERE id = 1;
+DELETE FROM friends
+WHERE id = 1;
+
+SELECT * FROM friends;
